@@ -1,0 +1,6 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  .col-sm-3 {
+    width: 44%;
+    margin-bottom: 20px;
+  }
+}

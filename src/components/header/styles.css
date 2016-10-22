@@ -1,0 +1,9 @@
+#root > div > nav {
+	background-color: #004D40 ;
+	background-image: unset;
+}
+
+#root > div > nav > div > button {
+	background-color: #26A69A ;
+	background-image: unset;
+}

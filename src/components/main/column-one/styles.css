@@ -1,0 +1,13 @@
+#col-1 ol {
+  padding-left: 15px;
+}
+
+#col-1 ol li:nth-child(odd) {
+    background: #B2DFDB;
+}
+
+#col-1 ol li:nth-child(even) {
+    background: #26A69A;
+}
+
+
