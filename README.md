@@ -15,6 +15,6 @@ To view in a browser run the following command in a node evnvironment
 	
 	npm start
 
-# will launch the app in a browser window	
+will launch the app in a browser window	
 
 
