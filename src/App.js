@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from './components/header/header';
 import Main from './components/main/main';
 import Footer from './components/footer/footer';
-import ControlledModalExample from './components/modal/Modal';
 
 import './App.css';
 
@@ -10,9 +9,20 @@ class App extends Component {
 	constructor (props) {
     super(props)
     this.state = {
-      nav: ['Launch Hangman'],
       isActive: false,
-      date: ''
+      date: '',
+      list :[
+        "Russell",
+        "Mark",
+        "Diane",
+        "Shawn",
+        "Catherine",
+        "Kenneth",
+        "Wanda",
+        "Nancy",
+        "Joan",
+        "Christopher"
+      ]
     };
 	}
 
@@ -35,10 +45,9 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-      <ControlledModalExample/>
-      	<Header onClick={this.update} data={this.state.nav}/>
+      	<Header/>
         <div className="container">
-        	<Main/>
+        	<Main data={this.state.list}/>
         </div>
         <Footer data={this.state.date}/>
       </div>

@@ -7,7 +7,8 @@ class Footer extends Component {
       <footer id="footer" className="navbar-default navbar-fixed-bottom">
         <div className="container-fluid">
         <div className="container">
-          <p><small> Robert Foggo: Devloper {this.props.data}</small></p>
+          <h4>Static Footer - Full Width</h4>
+          <p><small> Robert Foggo Devloper Assessment: {this.props.data}</small></p>
          </div>
         </div>
       </footer>  

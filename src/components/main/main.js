@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
       <div id="main" className="row">
-        <Column1/>
+        <Column1 data={this.props.data}/>
         <Column2/>
         <Column3/>
         <Column4/>

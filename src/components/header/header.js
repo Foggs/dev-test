@@ -3,20 +3,15 @@ import './styles.css';
 
 class Header extends Component {
 
-  onClick(e) {
-    console.log(e);
-    this.props.onClick(e.target);
-  }
-
   render() {
     return (
-      <nav className="navbar navbar-default navbar-fixed-top">
+      <nav id="header" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
-          <button type="button" 
-                  className="btn btn-success navbar-btn"
-                  onClick={this.onClick.bind(this)}>
-                  {this.props.data[0]}
-          </button>
+        <div className="navbar-header">
+              <h4 className="navbar-brand">
+                Static Header - Full Width
+              </h4>
+          </div>
         </div>
       </nav>
     )

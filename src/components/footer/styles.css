@@ -3,7 +3,11 @@
  }
 
 
-#footer p{
+#footer p, #footer h4{
 	color: #fff;
-	padding: 20px 20px;
+	padding: 20px 0 0 0;
+ }
+
+  #footer h4{
+	margin: 0;
  }

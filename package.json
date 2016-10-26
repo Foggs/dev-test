@@ -1,6 +1,7 @@
 {
-  "name": "ogilvy_mather",
+  "name": "ogilvy_mather_dev_assessment",
   "version": "0.1.0",
+  "author": "Rob Foggo",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.6.1"
