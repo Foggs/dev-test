@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 
-Application was created using React, Bootstrap framwworks.
+Application was created using React, Bootstrap framewworks.
 Code is written in Javascript ES6, compiled to ES5 using Babel
 Production files minified, bundled by Webpack.
 
